@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IW.HostedServices.Core\IW.HostedServices.Core.csproj" />
+    <ProjectReference Include="..\IW.HostedServices.Services\IW.HostedServices.Services.csproj" />
+  </ItemGroup>
+
+</Project>

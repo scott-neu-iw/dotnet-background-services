@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>dotnet-IW.HostedServices.Worker-98EF51B3-FBF0-4822-A984-1BD8521756B0</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IW.HostedServices.Core\IW.HostedServices.Core.csproj" />
+    <ProjectReference Include="..\IW.HostedServices.Services\IW.HostedServices.Services.csproj" />
+  </ItemGroup>
+</Project>
